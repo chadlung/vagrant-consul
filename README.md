@@ -10,6 +10,7 @@ To get started from a terminal:
 ```
 $ git clone https://github.com/chadlung/vagrant-consul.git
 $ cd vagrant-consul
+$ vagrant box add dhoppe/ubuntu-14.04.3-amd64
 $ vagrant up
 ```
 

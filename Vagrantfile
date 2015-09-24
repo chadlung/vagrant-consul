@@ -1,5 +1,5 @@
 Vagrant.configure(2) do |config|
-  config.vm.box = "dhoppe/ubuntu-14.04.2-amd64-nocm"
+  config.vm.box = "dhoppe/ubuntu-14.04.3-amd64"
 
   config.vm.provision :shell, path: "install_consul.sh"
 
